@@ -46,6 +46,9 @@
                                     <constraint firstAttribute="width" constant="131" id="OIU-YJ-ef3"/>
                                 </constraints>
                                 <state key="normal" title="清除資料"/>
+                                <connections>
+                                    <action selector="clearClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gej-in-Fc9"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8xc-GC-JbA">
                                 <rect key="frame" x="58.5" y="108" width="46" height="30"/>
@@ -58,6 +61,9 @@
                                     <constraint firstAttribute="width" constant="131" id="YPI-s8-bc9"/>
                                 </constraints>
                                 <state key="normal" title="完成輸入"/>
+                                <connections>
+                                    <action selector="inputClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mc7-jO-qJk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99486913440000002" green="0.83964508510000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -72,6 +78,9 @@
                             <constraint firstItem="33Y-uF-kIi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="z57-tz-wLV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textFieldName" destination="FXj-iw-gbs" id="hJf-Lq-fMH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
